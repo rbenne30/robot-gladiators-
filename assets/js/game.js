@@ -36,4 +36,10 @@ if (enemyHealth <= 0) {
    console.log(
       playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
     );
-   };
+   }// check player's health
+if (playerHealth <= 0) {
+   window.alert(playerName + " has died!");
+ } 
+ else {
+   window.alert(playerName + " still has " + playerHealth + " health left.");
+ }
