@@ -6,7 +6,11 @@ var playerMoney = 10;
 // You can also log multiple values at once like this
 console.log(playerName, playerAttack, playerHealth);
 
+<<<<<<< HEAD
 var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+=======
+var enemyName = "Roborto";
+>>>>>>> 5a00d2203d001b73e1e1a0550287a668f1fc3d9c
 var enemyHealth = 50;
 var enemyAttack = 12;
 
@@ -19,14 +23,24 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
    // remove enemy's health by subtracting the amount set in the playerAttack variable
    enemyHealth = enemyHealth - playerAttack;
    console.log(
+<<<<<<< HEAD
      playerName + " attacked " + enemyNames + ". " + enemyNames + " now has " + enemyHealth + " health remaining."
+=======
+     playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
+>>>>>>> 5a00d2203d001b73e1e1a0550287a668f1fc3d9c
    );
  
    // check enemy's health
    if (enemyHealth <= 0) {
+<<<<<<< HEAD
      window.alert(enemyNames + " has died!");
    } else {
      window.alert(enemyNames + " still has " + enemyHealth + " health left.");
+=======
+     window.alert(enemyName + " has died!");
+   } else {
+     window.alert(enemyName + " still has " + enemyHealth + " health left.");
+>>>>>>> 5a00d2203d001b73e1e1a0550287a668f1fc3d9c
    }
  
    // remove player's health by subtracting the amount set in the enemyAttack variable
